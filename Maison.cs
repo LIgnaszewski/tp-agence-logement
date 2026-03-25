@@ -14,6 +14,11 @@ class Maison : Logement
 
     public override void Afficher()
     {
-        Console.WriteLine($"Reference : {reference} | Adresse : {adresse} | Surface : {surface} | LoyerBase : {loyerBase} | Disponible : {disponible} | SurfaceJardin : {surfaceJardin}");
+        Console.WriteLine($"Reference : {reference} | Adresse : {adresse} | Surface : {surface} | LoyerBase : {loyerBase} | Disponible : {disponible} | SurfaceJardin : {surfaceJardin} | Loyer Final : {CalculerLoyer()}€");
+    }
+
+    public override double CalculerLoyer()
+    {
+        return (loyerBase + (10 * surfaceJardin));
     }
 }

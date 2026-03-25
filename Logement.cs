@@ -22,11 +22,11 @@ class Logement
 
     public virtual void Afficher()
     {
-        Console.WriteLine($"Reference : {reference} | Adresse : {adresse} | Surface : {surface} | LoyerBase : {loyerBase} | Disponible : {disponible}");
+        Console.WriteLine($"Reference : {reference} | Adresse : {adresse} | Surface : {surface} | LoyerBase : {loyerBase} | Disponible : {disponible} | Loyer Final : {CalculerLoyer()}€");
     }
 
-    public void CalculerLoyer()
+    public virtual double CalculerLoyer()
     {
-        
+        return loyerBase;
     }
 }

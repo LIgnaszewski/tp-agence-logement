@@ -15,6 +15,12 @@ class Appartement : Logement
 
     public override void Afficher()
     {
-        Console.WriteLine($"Reference : {reference} | Adresse : {adresse} | Surface : {surface} | LoyerBase : {loyerBase} | Disponible : {disponible} | Nombre De Piece : {nombrePiece}");
+        Console.WriteLine($"Reference : {reference} | Adresse : {adresse} | Surface : {surface} | LoyerBase : {loyerBase} | Disponible : {disponible} | Nombre De Piece : {nombrePiece} | Loyer Final : {CalculerLoyer()}€");
+    }
+
+    public override double CalculerLoyer()
+    {
+        if (nombrePiece > 0) return (loyerBase + (nombrePiece * 50));
+        else return loyerBase;
     }
 }

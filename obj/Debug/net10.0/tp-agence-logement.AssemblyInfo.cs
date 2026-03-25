@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tp-agence-logement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a46b1664c991bf55325793e0aef2bf1c4c200cb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d8404e3884fa29b4d1a693c2edb4bc85395dbde")]
 [assembly: System.Reflection.AssemblyProductAttribute("tp-agence-logement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tp-agence-logement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

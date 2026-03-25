@@ -17,5 +17,16 @@ class Program
         {
             log.Afficher();
         }
+
+        Locataire lo1 = new Locataire("LOCATAIRE 1", "0765652456");
+        Locataire lo2 = new Locataire("LOCATAIRE 2", "0765652456");
+        Locataire lo3 = new Locataire("LOCATAIRE 3", "0765652456");
+
+        List<Locataire> locataires = new List<Locataire>();
+
+        foreach(Locataire loc in locataires)
+        {
+            loc.Afficher();
+        }
     }
 }

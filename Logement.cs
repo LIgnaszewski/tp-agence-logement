@@ -20,9 +20,9 @@ class Logement
         return disponible;
     }
 
-    public void Afficher()
+    public virtual void Afficher()
     {
-        Console.WriteLine($"Reference : {reference}\nAdresse : {adresse}\nSurface : {surface}\nLoyerBase : {loyerBase}\nDisponible : {disponible}");
+        Console.WriteLine($"Reference : {reference} | Adresse : {adresse} | Surface : {surface} | LoyerBase : {loyerBase} | Disponible : {disponible}");
     }
 
     public void CalculerLoyer()

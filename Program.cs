@@ -4,9 +4,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        Logement l1 = new Logement("qzdqzd", "qzdqzdq", 12, 56, true);
+        Logement l1 = new Appartement("Antoine", "DAST", 12, 20, false, 2);
         l1.Afficher();
-        if (l1.getDispo() == true ) Console.WriteLine($"Le logement est disponnible.");
-        else Console.WriteLine($"Le logement n'est pas disponnible.");
+
+        Logement l2 = new Studio("Romain", "SEVRETTE", 12, 20, true, true);
+        l2.Afficher();
+
+        Logement l3 = new Maison("Lucas", "PEDRAK", 12, 20, true, 2);
+        l3.Afficher();
     }
 }

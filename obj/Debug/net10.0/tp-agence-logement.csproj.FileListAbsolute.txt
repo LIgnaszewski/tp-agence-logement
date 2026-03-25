@@ -1,0 +1,15 @@
+C:\Users\lignaszewski\Documents\mes-projets\projet-csharp\tp-agence-logement\bin\Debug\net10.0\tp-agence-logement.exe
+C:\Users\lignaszewski\Documents\mes-projets\projet-csharp\tp-agence-logement\bin\Debug\net10.0\tp-agence-logement.deps.json
+C:\Users\lignaszewski\Documents\mes-projets\projet-csharp\tp-agence-logement\bin\Debug\net10.0\tp-agence-logement.runtimeconfig.json
+C:\Users\lignaszewski\Documents\mes-projets\projet-csharp\tp-agence-logement\bin\Debug\net10.0\tp-agence-logement.dll
+C:\Users\lignaszewski\Documents\mes-projets\projet-csharp\tp-agence-logement\bin\Debug\net10.0\tp-agence-logement.pdb
+C:\Users\lignaszewski\Documents\mes-projets\projet-csharp\tp-agence-logement\obj\Debug\net10.0\tp-agence-logement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lignaszewski\Documents\mes-projets\projet-csharp\tp-agence-logement\obj\Debug\net10.0\tp-agence-logement.AssemblyInfoInputs.cache
+C:\Users\lignaszewski\Documents\mes-projets\projet-csharp\tp-agence-logement\obj\Debug\net10.0\tp-agence-logement.AssemblyInfo.cs
+C:\Users\lignaszewski\Documents\mes-projets\projet-csharp\tp-agence-logement\obj\Debug\net10.0\tp-agence-logement.csproj.CoreCompileInputs.cache
+C:\Users\lignaszewski\Documents\mes-projets\projet-csharp\tp-agence-logement\obj\Debug\net10.0\tp-agence-logement.sourcelink.json
+C:\Users\lignaszewski\Documents\mes-projets\projet-csharp\tp-agence-logement\obj\Debug\net10.0\tp-agence-logement.dll
+C:\Users\lignaszewski\Documents\mes-projets\projet-csharp\tp-agence-logement\obj\Debug\net10.0\refint\tp-agence-logement.dll
+C:\Users\lignaszewski\Documents\mes-projets\projet-csharp\tp-agence-logement\obj\Debug\net10.0\tp-agence-logement.pdb
+C:\Users\lignaszewski\Documents\mes-projets\projet-csharp\tp-agence-logement\obj\Debug\net10.0\tp-agence-logement.genruntimeconfig.cache
+C:\Users\lignaszewski\Documents\mes-projets\projet-csharp\tp-agence-logement\obj\Debug\net10.0\ref\tp-agence-logement.dll

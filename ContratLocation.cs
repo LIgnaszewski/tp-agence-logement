@@ -8,11 +8,20 @@ class ContratLocation
 
     public ContratLocation(int numero, Locataire locataire, Logement logement, int nombreJours, double tarifJournalier)
     {
-        this.numero = numero;
-        this.locataire = locataire;
-        this.logement = logement;
-        this.nombreJours = nombreJours;
-        this.tarifJournalier = tarifJournalier;
+
+        if (logement.getDispo() == true)
+        {
+            this.numero = numero;
+            this.locataire = locataire;
+            this.logement = logement;
+            if (nombreJours >=1) this.nombreJours = nombreJours;
+            else this.nombreJours = 1;
+            this.tarifJournalier = tarifJournalier;
+            logement.setDispo(false);
+        } else
+        {
+            Console.WriteLine("La création du contrat n'est pas possible puisque le logement n'est pas disponible.");
+        }
     }
 
     public virtual void Afficher()

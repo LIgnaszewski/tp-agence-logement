@@ -29,4 +29,9 @@ class Logement
     {
         return loyerBase;
     }
+
+    public void setDispo(bool disponible)
+    {
+        this.disponible = disponible;
+    }
 }

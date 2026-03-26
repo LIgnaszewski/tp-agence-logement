@@ -28,5 +28,8 @@ class Program
         {
             loc.Afficher();
         }
+
+        ContratLocation cl1 = new ContratLocation(1, lo1, l2, 5, 132);
+        ContratLocation cl2 = new ContratLocation(1, lo1, l2, 5, 132);
     }
 }
